@@ -1,0 +1,147 @@
+
+.topbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 10px;
+border: 1px solid #ccc;
+height: 30px;
+}
+
+.startBootstrap {
+   font-size: 22px;
+   margin-left: 50px;
+}
+.signUpButton{
+    margin-right: 60px;
+}
+.signUpButton > button {
+   height: 50px;
+   width: 85px;
+   border-radius: 5px;
+   border-style: none;
+   font-size: 15px;
+   background-color: #0d6efd;
+   color: white;
+}
+
+.LandingContent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    color: white;
+    height: 500px;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5a2c77d812abd9bc7ab2b450/1558908439070-8DZRCABFRSJ48RTX69CR/image-asset.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.LandingContent > h1 {
+    margin: 2px;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.LandingContent >  div > button {
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border:1px solid;
+    font-size: 18px;
+    background-color: #1e66cf;
+    color: white;
+    border-style: none;
+}
+
+.LandingContent > div > input {
+    height: 48px;
+    width: 300px;
+    border-radius: 5px;
+    border:1px solid;
+    margin: 10px;
+    font-size: 18px;
+    border-style: none;
+}
+
+.LandingContent > div {
+   margin-top:30px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.features >  div {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.features >  div > img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.features >  div > i {
+  color:#1e66cf
+}
+
+.fullresponsive{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fullresponsive >  div  > img{
+    width: 100%;
+    height: 100%;
+}
+.fullresponsive > div{
+    width:500px;
+    height: 100%;
+    margin: 20px;
+}
+
+.People{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin:10px;
+}
+.Peoplecontent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.Peoplecontent > div > img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.Peoplecontent > div {
+    width: 300px;
+    height:100%;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
